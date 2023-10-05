@@ -1,0 +1,99 @@
+
+*{
+    margin: 0%;
+     /* background-color:black;  */
+}
+
+.box{
+   
+   background-color:rgb(248, 248, 243);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top:  30px;
+    box-shadow: 0px 5pxx 0 5px rgba(#938e9b);
+    border: 5px solid black;
+    overflow-x: hidden;
+}
+.navbar{
+     background-color: green; 
+    width:300px;
+    height: 50px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgs{
+    margin-top: 10px;
+    width: 30px;
+}
+.round{
+
+    margin:7px;
+    width: 30px;
+    height: 30px;
+  
+    background-color: #FFF;
+    border-radius: 100px;
+    border: 5px solid black;
+}
+#img{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 30px;
+    border-radius: 50px;
+/* background-color: white; */
+    align-items: end;
+  
+}
+#PRO{
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
+}
+.mesaage_area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.message{
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming{
+    background:rgb(124, 225, 124);
+    color:white;
+    float: left;
+    clear: both;
+    box-shadow: 1px 1px 8px 1px #280958;
+}
+.outgoing{
+    background:rgb(124, 225, 124);
+    color: whitesmoke;
+    margin-left: auto;
+    float: right;
+    clear: both;
+    box-shadow: 1px 1px 8px 1px #46434a;
+}
+
+.message h4{
+    position: absolute;
+    top:-3px;
+    left:0;
+    color: #333;
+    font-size: 14px;
+}
+textarea{
+    width:90%;
+    padding: 20px;
+    border: none;
+    margin-top: 400px;
+}

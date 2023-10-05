@@ -1,0 +1,149 @@
+
+*{
+    margin: 0%;
+     /* background-color:black;  */
+}
+
+.box{
+   
+   background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top:  30px;
+    box-shadow: 0px 5pxx 0 5px rgba(#938e9b);
+    border: 5px solid black;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: green;
+    width:300px;
+    height: 50px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgs{
+    margin-top: 10px;
+    width: 30px;
+}
+.round{
+    margin:7px;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+    border-radius: 100px;
+    border: 5px solid black;
+}
+#img{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 30px;
+    border-radius: 50px;
+/* background-color: white; */
+    align-items: end;
+  
+}
+#id{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 30px;
+    border-radius: 50px;
+background-color: white;
+    align-items: end; 
+}
+.message{
+    width: 220px;
+    height: 20px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    /* border: 2px solid black; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right{
+    float: right;
+    clear: both;
+    box-shadow: 1px 1px 8px 1px #46434a;
+}
+.left{
+    float: left;
+    clear: both;
+    box-shadow: 1px 1px 8px 1px #280958;
+}
+.center{
+    clear: both;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    background-color:rgb(175, 234, 175);
+    color: rgba(20,20,20);
+    text-align: center;
+    font-weight: 700;
+ 
+}
+/* #mesaagebox{
+     background-color: white; 
+    height: 100%;
+    overflow: auto;
+    padding-top:10px;
+} */
+.mesaage_area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 40px;
+}
+.message{
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming{
+    background: #8F8BEB;
+    color: #FFF;
+}
+.outgoing{
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+.message h4{
+    position: absolute;
+    top:-20px;
+    left:0;
+    color: #333;
+    font-size: 14px;
+}
+
+.messagesendbox,form{
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+#send_msg{
+    width: 100%;
+    margin-top: 227px;
+    font-size: 12px;
+    font-weight: 800;
+}
+#sendbtn{
+    width:80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color:green;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 800;
+    border: none;
+    margin-top: 226px;
+
+}
